@@ -1,0 +1,281 @@
+body
+{
+  color: #40514E;
+ margin : 0;
+ font-family: 'Merriweather', serif;
+ text-align: center;
+ background-color: #252529;
+}
+.content
+{
+  max-width: 1180px;
+      text-align: center;
+      padding: 0 3rem;
+      line-height:2;
+      margin: 5%  auto 4% auto;
+
+
+}
+
+
+/*navbar and header*/
+img
+{
+    width: 100%;
+}
+ul{
+    list-style-type: disc;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+nav li {
+    display: inline;
+    float: left;
+  }
+nav
+{
+  margin: 0;
+  padding: 0;
+  background-color:#333;
+  position: fixed;
+  width: 100%;
+  height: 5%;
+
+}
+.cf
+{
+   margin:0  ;
+   padding:0;
+
+}
+nav a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding:  10px 0;
+    color: #eee;
+    text-decoration: none;
+}
+nav li:hover {
+    background-color: #444;
+  }
+  .FirstSection
+{
+margin: 0;
+padding: 0;
+background: url(showcase.jpeg) no-repeat center/cover;
+width: 100%;
+height: 100vh;
+overflow-y: hidden;
+}
+
+.text
+{
+
+  text-align: center;
+  color: white;
+  max-width: 1180px;
+  text-align: center;
+  margin: 15% auto;
+  padding: 0 3rem;
+  line-height: 2;
+}
+.text h1
+{
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+ h2
+{
+  font-size: 2.5rem;
+
+}
+h3
+{
+ font-size: 2rem;
+
+}
+p{
+  font-size: 1.1rem;
+}
+
+.para
+{
+font-size: 1.3rem;
+}
+/* second section  //////////////////////////////////////////////////////////////////////////////*/
+
+.secondSection
+{
+  text-align: center;
+  color: white;
+
+  background-color:#252529 ;
+  width: 100%;
+  height: 170vh;
+
+  overflow-y: hidden;
+
+}
+
+.textInSecondSection
+{
+  margin: 5%  auto 4% auto;
+  padding: 0 15%;
+  line-height: 2;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  background: #b90415;
+  padding: 20px 12px 20px 12px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.orange
+{
+  margin-top: 3%;
+}
+.mob_tab_photo
+{
+width: 70%
+
+}
+/*/////////////////////////third Section**/
+
+.thirdsection
+{
+
+  text-align: center;
+  color: black;
+  background-color:#f4f4f4 ;
+  width: 100%;
+  height: 200vh;
+  overflow-y: hidden;
+
+}
+.readbtn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  background: #103063;
+  padding: 20px 15px 20px 15px;
+  text-decoration: none;
+}
+
+.readbtn:hover {
+  background: #6089a3;
+  text-decoration: none;
+}
+
+.screenshoot
+{
+width: 75% ;
+
+}
+/*....................fourthSection*/
+
+.fourthSection
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60vh;
+  padding: 2rem 0;
+  overflow-y: hidden;
+  color: white;
+  background: url("../images/section-bg.jpeg") no-repeat bottom/cover;
+}
+.fourthSection-text
+{
+  margin: 15%  auto ;
+  padding: 0 15%;
+  line-height: 2;
+}
+
+/*....................fifthSection*/
+
+.fifthSection
+{
+  margin: 0;
+  padding: 2rem 0 ;
+  color: black;
+  background-color: #f4f4f4;
+
+}
+.fifthSection-grid
+{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+}
+.content-fifthSection
+{
+  max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+.Redeem_btn
+{
+text-decoration: none;
+color: #103063;
+}
+
+/*///////////////////Footer*/
+
+footer .footer-lists {
+  color: white;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+}
+footer .footer-lists ul li:first-child {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #444 solid 1px;
+    margin-bottom: 1rem;
+}
+footer .footer-lists ul {
+    list-style: none;
+}
+footer .footer-lists ul li a{
+  text-decoration: none;
+  color: white;
+}
+footer .footer-lists ul li a:hover{
+  text-decoration: none;
+  color: #e6e6e6;
+}
+footer .footer-bottom {
+    background: #333;
+    padding: 1rem;
+    color: white;
+}
